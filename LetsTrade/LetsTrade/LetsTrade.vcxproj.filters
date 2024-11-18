@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{ab742d03-467b-4a11-a48c-2e109267d84f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\CurlUtil">
+      <UniqueIdentifier>{2d6e4b0c-1d48-4469-a99e-72c1ac6a6cd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{4cf17e52-faec-4aab-9caf-6e639384b312}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{82576329-ca87-4494-9a5d-a842d751f3a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Service">
+      <UniqueIdentifier>{785c0fcb-044d-4dea-9b28-57219e8bd460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Constants">
+      <UniqueIdentifier>{f9a3a858-dec0-4afd-89a4-492ce55c46c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Json">
+      <UniqueIdentifier>{7a1f45d7-c1ca-4606-b12e-db98623e591d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LetsTrade.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonParser.cpp">
+      <Filter>Json</Filter>
+    </ClCompile>
+    <ClCompile Include="CurlUtil.cpp">
+      <Filter>Utilities\CurlUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderController.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderService.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="TestDeribitOrderService.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuController.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="JsonParser.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="CurlUtil.h">
+      <Filter>Utilities\CurlUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="OrderController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="OrderService.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="TestDeribitOrderService.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseOrderData.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="OrderPlaceResponseData.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="GetOpenOrdersResponseData.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="CancelOrderResponseData.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="CancelAllOrderResponseData.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="GetCurrentPositionsResponseData.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

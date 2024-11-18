@@ -1,0 +1,60 @@
+# Compiled object files
+*.o
+*.obj
+*.lo
+*.slo
+
+# Compiled binary files
+#*.exe
+#*.out
+#*.app
+#*.dll
+#*.so
+#*.dylib
+
+# Debug files
+*.dSYM/
+*.pdb
+*.idb
+
+# Build directories
+/build/
+bin/
+Build/
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# IDE-specific files
+.vscode/
+*.code-workspace
+*.suo
+*.user
+*.userosscache
+*.csproj.user
+.idea/
+*.iml
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.lock
+*.pid
+*.seed
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Boost Build
+bootstrap.log
+bin.v2/
+
+# Other
+*.cache
+*.bak
+*.orig
